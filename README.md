@@ -1,19 +1,23 @@
-🎬 Gerador de Vídeo a partir de Imagens
+Gerador de Vídeo a partir de Imagens
 
 Este projeto em Python utiliza a biblioteca OpenCV para criar um vídeo a partir de imagens armazenadas em uma pasta.
 A ideia é pegar arquivos de imagem (em formatos como .jpg, .png, .gif, etc.) e organizá-los em sequência para gerar um vídeo final (.mp4).
 
-🚀 Objetivo
+Objetivo
 
-O objetivo é demonstrar o uso de manipulação de arquivos com os e processamento de imagens/vídeos com cv2, criando um vídeo automático a partir de imagens.
+O objetivo é demonstrar o uso de:
 
-📂 Estrutura do Projeto
+Manipulação de arquivos com os
+
+Processamento de imagens/vídeos com cv2
+
+Estrutura do Projeto
 .
 ├── Desenhos/        # Pasta que contém as imagens
 ├── video2.mp4       # Arquivo de saída (gerado após execução)
 └── main.py          # Script principal
 
-⚙️ Pré-requisitos
+Pré-requisitos
 
 Antes de rodar o projeto, certifique-se de ter instalado:
 
@@ -25,7 +29,7 @@ Instale as dependências com:
 
 pip install opencv-python
 
-▶️ Como executar
+Como executar
 
 Coloque suas imagens na pasta Desenhos/
 
@@ -36,7 +40,7 @@ python main.py
 
 O vídeo gerado será salvo como video2.mp4 no diretório atual.
 
-🖼️ Formatos aceitos
+Formatos aceitos
 
 O programa reconhece automaticamente imagens com extensões:
 
@@ -50,7 +54,7 @@ O programa reconhece automaticamente imagens com extensões:
 
 .jfif
 
-📝 Observações
+Observações
 
 O vídeo é criado em 5 FPS por padrão (pode ser alterado na linha VideoWriter).
 
