@@ -1,6 +1,7 @@
-Gerador de Vídeo a partir de Imagens
+🎬 Gerador de Vídeo a partir de Imagens
 
-Este projeto em Python utiliza a biblioteca OpenCV para criar um vídeo a partir de imagens armazenadas em uma pasta. A ideia é pegar os arquivos de imagem (em formatos como .jpg, .png, .gif, etc.) e organizá-los em sequência para gerar um vídeo final (.mp4).
+Este projeto em Python utiliza a biblioteca OpenCV para criar um vídeo a partir de imagens armazenadas em uma pasta.
+A ideia é pegar arquivos de imagem (em formatos como .jpg, .png, .gif, etc.) e organizá-los em sequência para gerar um vídeo final (.mp4).
 
 🚀 Objetivo
 
